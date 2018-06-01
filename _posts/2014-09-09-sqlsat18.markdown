@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "SQLSaturday Porto 2018"
+date:   2018-06-01 00:00:00 +00:00
+categories: sqlsat
+author: eduardopiairo
+comments: false
+---
+
+<a href="http://www.sqlsaturday.com/795/EventHome.aspx" target="_blank">SQLSaturday #795 Porto 2018</a> conference will take place on **29th September** at ISEP.
+
+And we are looking for the most talented speakers: <a href="http://www.sqlsaturday.com/795/Speakers/Submission.aspx" target="_blank">Call For Speakers</a>
+
+![SQLSaturdayPorto2018](/images/sqlsat795_web.jpg)
+
+<!-- nomore -->
+
+**SQLSaturday**
+
+SQLSaturday is a training event for SQL Server professionals and those wanting to learn about SQL Server. Admittance to this event is free, all costs are covered by donations and sponsorships. Please register soon as seating is limited, and let friends and colleagues know about the event.
+
+<a href="/sqlsaturday18/" class="btn btn-primary btn-sm">More Info</a>
+
+<!--**Blockquote**
+
+> They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.
+> 
+> _Benjamin Franklin_
+
+**Code**
+
+{% highlight c %}
+
+static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
+{
+    struct Admin* admin = Identity_check((struct Admin*) vAdmin);
+    int64_t enabled = admin->asyncEnabled;
+    Dict d = Dict_CONST(String_CONST("asyncEnabled"), Int_OBJ(enabled), NULL);
+    Admin_sendMessage(&d, txid, admin);
+}
+
+{% endhighlight %}
+
+**Image**
+
+![ThisIsADemoPhoto](/images/sqlsat795_web.jpg)
+-->
