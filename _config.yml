@@ -1,7 +1,7 @@
 # Site settings
 title: Porto.Data
 description: Data Plataform Portuguese Community
-email: pranav@maangalabs.com
+email: portodata@portodata.com
 baseurl:
 #url: "http://pranav.maangalabs.com" # the base hostname & protocol for your site
 #favicon
@@ -9,23 +9,28 @@ favicon: /portodata-logo1.png
 
 #feed
 #feedburner_username: maangalabs
+
 #twitter
 twitter_username: PortoData
+
+#github
 github_username:  portodata
 
 #linkedin
 linkedin_username: pranavrajs
 
 #google analytics
-google_analytics_id : UA-53386152-2
+google_analytics_id : UA-74349831-3
+
 #gplus
-gplus_username: 101893920934936418705
+#gplus_username: 101893920934936418705
 
 #fb_username
 #fb_username: pranav.tayberrycreative
 
 #permalink /blog/2014/11/11/this-is-a-sample-post
 permalink: /blog/:year/:month/:day/:title
+
 # Build settings
 markdown: kramdown
 
