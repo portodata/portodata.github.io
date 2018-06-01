@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contribute
-permalink: /contribute/
+title: About Us
+permalink: /about/
 ---
 
 
