@@ -1,7 +1,7 @@
 ---
 layout: page
-title: SQLSaturday Porto 2018
-permalink: /sqlsaturday18/
+title: Azure DevOps
+permalink: /azops2019/
 ---
 
 
